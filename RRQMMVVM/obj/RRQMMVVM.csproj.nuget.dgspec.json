@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#ClassLibraries\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj": {}
+    "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj": {}
   },
   "projects": {
-    "E:\\C#ClassLibraries\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj": {
+    "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj": {
       "version": "2.0.2",
       "restore": {
-        "projectUniqueName": "E:\\C#ClassLibraries\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj",
+        "projectUniqueName": "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj",
         "projectName": "RRQMMVVM",
-        "projectPath": "E:\\C#ClassLibraries\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj",
+        "projectPath": "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj",
         "packagesPath": "C:\\Users\\17516\\.nuget\\packages\\",
-        "outputPath": "E:\\C#ClassLibraries\\RRQMMVVM\\RRQMMVVM\\obj\\",
+        "outputPath": "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

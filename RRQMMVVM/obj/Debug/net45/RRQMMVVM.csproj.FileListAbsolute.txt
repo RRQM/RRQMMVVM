@@ -5,3 +5,11 @@ E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.AssemblyInfo.cs
 E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CoreCompileInputs.cache
 E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.dll
 E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.pdb
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMMVVM.dll
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMMVVM.pdb
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csprojAssemblyReference.cache
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.AssemblyInfoInputs.cache
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.AssemblyInfo.cs
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CoreCompileInputs.cache
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.dll
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.pdb
