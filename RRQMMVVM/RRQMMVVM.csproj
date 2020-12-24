@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netcoreapp3.1</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <SignAssembly>true</SignAssembly>
+    <Authors>若汝棋茗</Authors>
+    <Description>这是一个简单的MVVM框架</Description>
+    <Copyright>Copyright © 2020 若汝棋茗</Copyright>
+    <Version>2.0.2</Version>
+    <PackageIcon>RRQM.png</PackageIcon>
+    <ApplicationIcon>RRQM.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="RRQM.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Enum\" />
+  </ItemGroup>
+
+</Project>

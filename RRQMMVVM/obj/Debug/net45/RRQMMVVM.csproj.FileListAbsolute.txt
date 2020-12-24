@@ -1,0 +1,7 @@
+E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMMVVM.dll
+E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMMVVM.pdb
+E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.AssemblyInfoInputs.cache
+E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.AssemblyInfo.cs
+E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CoreCompileInputs.cache
+E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.dll
+E:\C#ClassLibraries\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.pdb

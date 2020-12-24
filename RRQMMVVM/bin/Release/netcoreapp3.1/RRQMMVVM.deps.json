@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RRQMMVVM/2.0.2": {
+        "runtime": {
+          "RRQMMVVM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RRQMMVVM/2.0.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
