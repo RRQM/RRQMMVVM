@@ -15,3 +15,12 @@ E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.AssemblyInfo.cs
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csproj.CoreCompileInputs.cache
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.dll
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.pdb
+D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\netcoreapp3.1\RRQMMVVM.deps.json
+D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\netcoreapp3.1\RRQMMVVM.dll
+D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\netcoreapp3.1\RRQMMVVM.pdb
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csprojAssemblyReference.cache
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.AssemblyInfoInputs.cache
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.AssemblyInfo.cs
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.dll
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.pdb
