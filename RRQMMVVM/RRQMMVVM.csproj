@@ -5,11 +5,20 @@
     <UseWPF>true</UseWPF>
     <SignAssembly>true</SignAssembly>
     <Authors>若汝棋茗</Authors>
-    <Description>这是一个简单的MVVM框架</Description>
     <Copyright>Copyright © 2020 若汝棋茗</Copyright>
-    <Version>2.0.2</Version>
+    <Version>2.0.3</Version>
     <PackageIcon>RRQM.png</PackageIcon>
     <ApplicationIcon>RRQM.ico</ApplicationIcon>
+    <Description>
+      这是一个简单的MVVM框架
+      更新内容：
+      1.Command绑定支持。
+      2.数据模型绑定支持。
+      3.Message的订阅和发送。
+      4.广泛Message的使用。
+      5.Windows窗体管理。
+    </Description>
+    <AssemblyOriginatorKeyFile>RRQM.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
