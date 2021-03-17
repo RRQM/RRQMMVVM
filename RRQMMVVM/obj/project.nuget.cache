@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6OmOrWX+ufwSS8mN18W7nHlBjdEJvqsl/U+0Ukq5jRFPCOm3uxfYlW1PPltkxpZmTGjAEECt8OKt0xcF4+prIw==",
+  "dgSpecHash": "vbdAYL0bbvQPijCy8owPzcQfchoL5UicG78jZ1YyRfx91yGMyXhzjGuc/TwFtaH5+LSatHAkHmoRYuuZim+Tmg==",
   "success": true,
-  "projectFilePath": "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj",
+  "projectFilePath": "D:\\OpenCode\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\17516\\.nuget\\packages\\rrqmcore\\1.2.2\\rrqmcore.1.2.2.nupkg.sha512"
+    "C:\\Users\\carywang\\.nuget\\packages\\rrqmcore\\1.2.2\\rrqmcore.1.2.2.nupkg.sha512"
   ],
   "logs": []
 }

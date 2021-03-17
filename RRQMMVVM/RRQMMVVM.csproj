@@ -5,8 +5,8 @@
     <UseWPF>true</UseWPF>
     <SignAssembly>true</SignAssembly>
     <Authors>若汝棋茗</Authors>
-    <Copyright>Copyright © 2020 若汝棋茗</Copyright>
-    <Version>2.0.3</Version>
+    <Copyright>Copyright © 2021 若汝棋茗</Copyright>
+    <Version>2.1.0</Version>
     <PackageIcon>RRQM.png</PackageIcon>
     <ApplicationIcon>RRQM.ico</ApplicationIcon>
     <Description>
@@ -19,9 +19,16 @@
       5.Windows窗体管理。
     </Description>
     <AssemblyOriginatorKeyFile>RRQM.pfx</AssemblyOriginatorKeyFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://gitee.com/RRQM_Home/RRQMMVVM</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="RRQM.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -30,6 +37,11 @@
 
   <ItemGroup>
     <PackageReference Include="RRQMCore" Version="1.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Attribute\" />
+    <Folder Include="Exception\" />
   </ItemGroup>
 
 </Project>

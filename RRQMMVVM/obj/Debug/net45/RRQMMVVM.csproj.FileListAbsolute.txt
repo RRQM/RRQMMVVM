@@ -14,7 +14,6 @@ E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.dll
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.pdb
 D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMMVVM.dll
 D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMMVVM.pdb
-D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csprojAssemblyReference.cache
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.AssemblyInfoInputs.cache
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.AssemblyInfo.cs
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CoreCompileInputs.cache
@@ -22,3 +21,6 @@ D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.dll
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.pdb
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMCore.dll
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CopyComplete
+D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMCore.dll
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CopyComplete
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csprojAssemblyReference.cache
