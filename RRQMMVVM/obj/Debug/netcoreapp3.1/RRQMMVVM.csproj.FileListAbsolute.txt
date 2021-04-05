@@ -23,3 +23,4 @@ D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csproj.CoreCompil
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.dll
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.pdb
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csprojAssemblyReference.cache
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csprojAssemblyReference.cache
