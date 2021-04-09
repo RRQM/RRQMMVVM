@@ -21,3 +21,5 @@ D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\net45\RRQMMVVM.csproj.CoreCompileInput
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\net45\RRQMMVVM.csproj.CopyComplete
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\net45\RRQMMVVM.dll
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\net45\RRQMMVVM.pdb
+D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Release\net45\RRQMMVVM.xml
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\net45\RRQMMVVM.csprojAssemblyReference.cache

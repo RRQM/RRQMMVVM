@@ -28,21 +28,22 @@ namespace RRQMMVVM
         /// <summary>
         /// 获取已创建的窗口
         /// </summary>
-        public static WindowCollection Windows
+        public static Window[] Windows
         {
-            get { return windows; }
+            get { return windows.GetWindows(); }
         }
 
         /// <summary>
         /// 创建新窗体
         /// </summary>
         /// <param name="windowSetting"></param>
-        public static void CreatWindow(WindowSetting windowSetting)
+        /// <returns>窗口ID</returns>
+        public static string CreatWindow(WindowSetting windowSetting)
         {
             Window window = Activator.CreateInstance(windowSetting.WindowType, windowSetting.Parameters) as Window;
             window.WindowState = windowSetting.WindowState;
 
-            windows.Add(window);
+            windows.Add(windowSetting.ID, window);
 
             switch (windowSetting.ShowMode)
             {
@@ -53,6 +54,22 @@ namespace RRQMMVVM
                     window.ShowDialog();
                     break;
             }
+            return windowSetting.ID;
+        }
+
+        /// <summary>
+        /// 创建新窗体
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="windowType"></param>
+        /// <param name="parameters"></param>
+        /// <returns>窗口ID</returns>
+        public static string CreatWindow(string id, Type windowType, params object[] parameters)
+        {
+            Window window = Activator.CreateInstance(windowType, parameters) as Window;
+            windows.Add(id, window);
+            window.Show();
+            return id;
         }
 
         /// <summary>
@@ -60,12 +77,28 @@ namespace RRQMMVVM
         /// </summary>
         /// <param name="windowType"></param>
         /// <param name="parameters"></param>
-        public static void CreatWindow(Type windowType, params object[] parameters)
+        /// <returns>窗口ID</returns>
+        public static string CreatWindow(Type windowType, params object[] parameters)
+        {
+            Window window = Activator.CreateInstance(windowType, parameters) as Window;
+            string id = windows.GetRandomID();
+            windows.Add(id, window);
+            window.Show();
+            return id;
+        }
+
+        /// <summary>
+        /// 创建对话框窗体
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="windowType"></param>
+        /// <param name="parameters"></param>
+        public static object CreatDialogWindow(string id, Type windowType, params object[] parameters)
         {
             Window window = Activator.CreateInstance(windowType, parameters) as Window;
 
-            windows.Add(window);
-            window.Show();
+            windows.Add(id, window);
+            return window.ShowDialog();
         }
 
         /// <summary>
@@ -77,8 +110,8 @@ namespace RRQMMVVM
         {
             Window window = Activator.CreateInstance(windowType, parameters) as Window;
 
-            windows.Add(window);
-           return window.ShowDialog();
+            windows.Add(windows.GetRandomID(), window);
+            return window.ShowDialog();
         }
 
         /// <summary>
@@ -87,16 +120,29 @@ namespace RRQMMVVM
         /// <param name="window"></param>
         public static object CreatDialogWindow(Window window)
         {
-            windows.Add(window);
-           return window.ShowDialog();
+            windows.Add(windows.GetRandomID(), window);
+            return window.ShowDialog();
+        }
+
+        /// <summary>
+        /// 创建对话框窗体
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="window"></param>
+        /// <returns></returns>
+        public static object CreatDialogWindow(string id, Window window)
+        {
+            windows.Add(id, window);
+            return window.ShowDialog();
         }
 
         /// <summary>
         /// 创建新窗体
         /// </summary>
+        /// <param name="id"></param>
         /// <param name="windowType"></param>
         /// <param name="showMode"></param>
-        public static void CreatWindow(string windowType, ShowMode showMode)
+        public static void CreatWindow(string id, string windowType, ShowMode showMode)
         {
             var types = AppDomain.CurrentDomain.GetAssemblies()
                         .SelectMany(a => a.GetTypes().Where(t => t.Name == windowType))
@@ -105,7 +151,7 @@ namespace RRQMMVVM
             {
                 Window window = Activator.CreateInstance(types[0]) as Window;
 
-                windows.Add(window);
+                windows.Add(id, window);
 
                 switch (showMode)
                 {
@@ -129,11 +175,12 @@ namespace RRQMMVVM
         /// <summary>
         /// 创建新窗体
         /// </summary>
+        /// <param name="id"></param>
         /// <param name="window"></param>
         /// <param name="showMode"></param>
-        public static void CreatWindow(Window window, ShowMode showMode)
+        public static void CreatWindow(string id, Window window, ShowMode showMode)
         {
-            windows.Add(window);
+            windows.Add(id, window);
             switch (showMode)
             {
                 case ShowMode.Show:
@@ -146,6 +193,28 @@ namespace RRQMMVVM
         }
 
         /// <summary>
+        /// 创建新窗体
+        /// </summary>
+        /// <param name="window"></param>
+        /// <param name="showMode"></param>
+        /// <returns></returns>
+        public static string CreatWindow(Window window, ShowMode showMode)
+        {
+            string id = windows.GetRandomID();
+            windows.Add(id, window);
+            switch (showMode)
+            {
+                case ShowMode.Show:
+                    window.Show();
+                    break;
+                case ShowMode.Dialog:
+                    window.ShowDialog();
+                    break;
+            }
+            return id;
+        }
+
+        /// <summary>
         /// 关闭窗体
         /// </summary>
         /// <param name="window"></param>
@@ -155,45 +224,40 @@ namespace RRQMMVVM
         }
 
         /// <summary>
-        /// 关闭查找到的第一个窗口
+        /// 关闭窗体
         /// </summary>
-        /// <param name="windowType"></param>
-        public static void CloseSelectFirstWindow(Type windowType)
+        /// <param name="id"></param>
+        public static void CloseWindow(string id)
         {
-            foreach (var window in windows)
-            {
-                if (window.GetType().FullName == windowType.FullName)
-                {
-                    window.Close();
-                    break;
-                }
-            }
+            windows.CloseWindow(id);
         }
 
         /// <summary>
-        /// 关闭查找到的所有的窗口
+        /// 通过ID获取Window
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static Window GetWindow(string id)
+        {
+            return windows.GetWindow(id);
+        }
+
+        /// <summary>
+        /// 关闭查找到的第一个窗口
         /// </summary>
         /// <param name="windowType"></param>
-        public static void CloseSelectAllWindow(Type windowType)
+        public static void CloseTypeWindow(Type windowType)
         {
-            foreach (var window in windows)
-            {
-                if (window.GetType().FullName == windowType.FullName)
-                {
-                    window.Close();
-                }
-            }
+            windows.CloseTypeWindow(windowType);
         }
+
 
         /// <summary>
         /// 关闭所有窗口
         /// </summary>
         public static void CloseAllWindow()
         {
-            foreach (var window in windows)
-            {
-                window.Close();
-            }
+            windows.CloseAllWindow();
         }
     }
 }

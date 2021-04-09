@@ -6,7 +6,7 @@
     <SignAssembly>true</SignAssembly>
     <Authors>若汝棋茗</Authors>
     <Copyright>Copyright © 2021 若汝棋茗</Copyright>
-    <Version>2.1.0</Version>
+    <Version>2.1.2</Version>
     <PackageIcon>RRQM.png</PackageIcon>
     <ApplicationIcon>RRQM.ico</ApplicationIcon>
     <Description>
@@ -17,12 +17,30 @@
       3.Message的订阅和发送。
       4.广泛Message的使用。
       5.Windows窗体管理。
+      6.增加通过ID获取Window。
     </Description>
     <AssemblyOriginatorKeyFile>RRQM.pfx</AssemblyOriginatorKeyFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://gitee.com/RRQM_Home/RRQMMVVM</PackageProjectUrl>
+    <PackageProjectUrl>https://gitee.com/RRQM_OS/RRQMMVVM</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net45|AnyCPU'">
+    <DocumentationFile>bin\Debug\net45\RRQMMVVM.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+    <DocumentationFile>bin\Release\net45\RRQMMVVM.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp3.1|AnyCPU'">
+		<DocumentationFile>bin\Debug\netcoreapp3.1\RRQMMVVM.xml</DocumentationFile>
+		<OutputPath></OutputPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.1|AnyCPU'">
+		<DocumentationFile>bin\Release\netcoreapp3.1\RRQMMVVM.xml</DocumentationFile>
+		<OutputPath></OutputPath>
+	</PropertyGroup>
 
   <ItemGroup>
     <None Include="..\LICENSE">
@@ -40,7 +58,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Attribute\" />
     <Folder Include="Exception\" />
   </ItemGroup>
 

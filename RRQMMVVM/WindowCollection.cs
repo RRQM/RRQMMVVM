@@ -9,6 +9,7 @@
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,22 +21,100 @@ namespace RRQMMVVM
     /// <summary>
     /// 窗口集合
     /// </summary>
-    public class WindowCollection : List<Window>
+    public class WindowCollection
     {
+        private ConcurrentDictionary<string, Window> windows = new ConcurrentDictionary<string, Window>();
         /// <summary>
         /// 添加
         /// </summary>
+        /// <param name="id"></param>
         /// <param name="window"></param>
-        public new void Add(Window window)
+        internal void Add(string id, Window window)
         {
+            count++;
             window.Closed += Window_Closed;
             window.Activate();
-            base.Add(window);
+            if (!windows.TryAdd(id, window))
+            {
+                throw new RRQMCore.Exceptions.RRQMException("ID重复");
+            }
         }
 
+        internal void CloseTypeWindow(Type type)
+        {
+            foreach (var key in windows.Keys)
+            {
+                Window window;
+                if (windows.TryGetValue(key, out window))
+                {
+                    if (window.GetType().FullName == type.FullName)
+                    {
+                        windows.TryRemove(key, out _);
+                    }
+                }
+            }
+        }
+
+        internal void CloseWindow(string id)
+        {
+            Window window;
+            if (windows.TryGetValue(id, out window))
+            {
+                window.Close();
+            }
+        }
+        
+        internal void CloseAllWindow()
+        {
+            foreach (var key in windows.Keys)
+            {
+                Window window;
+                if (windows.TryGetValue(key, out window))
+                {
+                    window.Close();
+                }
+            }
+        }
+
+        internal Window GetWindow(string id)
+        {
+            Window window;
+            windows.TryGetValue(id,out window);
+            return window;
+        }
+        /// <summary>
+        /// 获取所有窗口
+        /// </summary>
+        /// <returns></returns>
+        public Window[] GetWindows()
+        {
+            return windows.Values.ToArray();
+        }
+        int count;
+        internal string GetRandomID()
+        {
+            string key = "win" + count;
+            while (windows.ContainsKey(key))
+            {
+                count++;
+                key = "win" + count;
+            }
+            return key;
+        }
         private void Window_Closed(object sender, EventArgs e)
         {
-            base.Remove((Window)sender);
+            foreach (var key in windows.Keys)
+            {
+                Window window;
+                if (windows.TryGetValue(key, out window))
+                {
+                    if (window == sender)
+                    {
+                        windows.TryRemove(key, out _);
+                        break;
+                    }
+                }
+            }
         }
     }
 }

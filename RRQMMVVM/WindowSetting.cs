@@ -23,6 +23,11 @@ namespace RRQMMVVM
     public class WindowSetting
     {
         /// <summary>
+        /// 窗口ID
+        /// </summary>
+        public string ID { get; set; }
+
+        /// <summary>
         /// Window类型
         /// </summary>
         public Type WindowType { get; set; }

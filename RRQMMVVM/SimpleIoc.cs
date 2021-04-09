@@ -56,7 +56,6 @@ namespace RRQMMVVM
         /// </summary>
         /// <param name="element"></param>
         /// <param name="viewModel"></param>
-        /// <param name="messageRegistType"></param>
         public void Register(FrameworkElement element, ViewModelBase viewModel)
         {
             element.DataContext = viewModel;
@@ -89,7 +88,6 @@ namespace RRQMMVVM
         /// <param name="key"></param>
         /// <param name="element"></param>
         /// <param name="viewModel"></param>
-        /// <param name="messageRegistType"></param>
         public void Register(string key, FrameworkElement element, ViewModelBase viewModel)
         {
             element.DataContext = viewModel;

@@ -22,3 +22,5 @@ D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\netcoreapp3.1\RRQMMVVM.AssemblyInfo.cs
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\netcoreapp3.1\RRQMMVVM.csproj.CoreCompileInputs.cache
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\netcoreapp3.1\RRQMMVVM.dll
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\netcoreapp3.1\RRQMMVVM.pdb
+D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Release\netcoreapp3.1\RRQMMVVM.xml
+D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Release\netcoreapp3.1\RRQMMVVM.csprojAssemblyReference.cache

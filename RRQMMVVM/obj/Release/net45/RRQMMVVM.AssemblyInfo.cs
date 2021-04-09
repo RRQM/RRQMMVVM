@@ -15,12 +15,13 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2021 若汝棋茗")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("\r\n      这是一个简单的MVVM框架\r\n      更新内容：\r\n      1.Command绑定支持。\r\n      2.数据模型绑定支持。\r\n    " +
-    "  3.Message的订阅和发送。\r\n      4.广泛Message的使用。\r\n      5.Windows窗体管理。\r\n    ")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.0")]
+    "  3.Message的订阅和发送。\r\n      4.广泛Message的使用。\r\n      5.Windows窗体管理。\r\n      6.增加通过ID获" +
+    "取Window。\r\n    ")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RRQMMVVM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RRQMMVVM")]
-[assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.1.2.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

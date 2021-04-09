@@ -23,4 +23,4 @@ E:\CodeOpen\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMCore.dll
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CopyComplete
 D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMCore.dll
 D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csproj.CopyComplete
-D:\OpenCode\RRQMMVVM\RRQMMVVM\obj\Debug\net45\RRQMMVVM.csprojAssemblyReference.cache
+D:\OpenCode\RRQMMVVM\RRQMMVVM\bin\Debug\net45\RRQMMVVM.xml
