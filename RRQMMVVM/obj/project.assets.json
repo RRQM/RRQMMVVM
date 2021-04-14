@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "RRQMCore/1.2.2": {
+      "RRQMCore/1.2.15": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/RRQMCore.dll": {}
@@ -16,7 +16,7 @@
       }
     },
     ".NETFramework,Version=v4.5": {
-      "RRQMCore/1.2.2": {
+      "RRQMCore/1.2.15": {
         "type": "package",
         "compile": {
           "lib/net45/RRQMCore.dll": {}
@@ -28,10 +28,10 @@
     }
   },
   "libraries": {
-    "RRQMCore/1.2.2": {
-      "sha512": "ncWOOpRvCmXzq7Hvo1VcG261f5YZwu0YS7ao3Q05PfEe5twaoqEBfEQKXWXU/lRk9sEKhd0mUSp/VdQRFhditQ==",
+    "RRQMCore/1.2.15": {
+      "sha512": "79e1NUOCvIMxyx49HR18d1XvLvq4CLufuc9GL6qrT4VwXwkVMws3r1TsPcaDP4y83drCYezgD8SOjhcbbpY9wg==",
       "type": "package",
-      "path": "rrqmcore/1.2.2",
+      "path": "rrqmcore/1.2.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -43,25 +43,21 @@
         "lib/netcoreapp3.1/RRQMCore.xml",
         "lib/netstandard2.0/RRQMCore.dll",
         "lib/netstandard2.0/RRQMCore.xml",
-        "rrqmcore.1.2.2.nupkg.sha512",
+        "rrqmcore.1.2.15.nupkg.sha512",
         "rrqmcore.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "RRQMCore >= 1.2.2"
+      "RRQMCore >= 1.2.15"
     ],
     ".NETFramework,Version=v4.5": [
-      "RRQMCore >= 1.2.2"
+      "RRQMCore >= 1.2.15"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\carywang\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\17516\\.nuget\\packages\\": {},
->>>>>>> fd48339a61f90a38fb8be48fa7b7f4f0e82a329a
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -112,7 +108,7 @@
         "dependencies": {
           "RRQMCore": {
             "target": "Package",
-            "version": "[1.2.2, )"
+            "version": "[1.2.15, )"
           }
         },
         "imports": [
@@ -140,7 +136,7 @@
         "dependencies": {
           "RRQMCore": {
             "target": "Package",
-            "version": "[1.2.2, )"
+            "version": "[1.2.15, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"

@@ -41,6 +41,12 @@
 		<DocumentationFile>bin\Release\netcoreapp3.1\RRQMMVVM.xml</DocumentationFile>
 		<OutputPath></OutputPath>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="Exception\**" />
+	  <EmbeddedResource Remove="Exception\**" />
+	  <None Remove="Exception\**" />
+	  <Page Remove="Exception\**" />
+	</ItemGroup>
 
   <ItemGroup>
     <None Include="..\LICENSE">
@@ -54,11 +60,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="RRQMCore" Version="1.2.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Exception\" />
+    <PackageReference Include="RRQMCore" Version="1.2.15" />
   </ItemGroup>
 
 </Project>

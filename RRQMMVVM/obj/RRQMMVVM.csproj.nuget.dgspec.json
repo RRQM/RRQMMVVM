@@ -4,13 +4,8 @@
     "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
-    "D:\\OpenCode\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj": {
-      "version": "2.1.2",
-=======
     "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj": {
-      "version": "2.1.0",
->>>>>>> fd48339a61f90a38fb8be48fa7b7f4f0e82a329a
+      "version": "2.1.2",
       "restore": {
         "projectUniqueName": "E:\\CodeOpen\\RRQMMVVM\\RRQMMVVM\\RRQMMVVM.csproj",
         "projectName": "RRQMMVVM",
@@ -57,7 +52,7 @@
           "dependencies": {
             "RRQMCore": {
               "target": "Package",
-              "version": "[1.2.2, )"
+              "version": "[1.2.15, )"
             }
           },
           "imports": [
@@ -85,7 +80,7 @@
           "dependencies": {
             "RRQMCore": {
               "target": "Package",
-              "version": "[1.2.2, )"
+              "version": "[1.2.15, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
