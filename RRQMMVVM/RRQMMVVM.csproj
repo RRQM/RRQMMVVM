@@ -6,19 +6,18 @@
     <SignAssembly>true</SignAssembly>
     <Authors>若汝棋茗</Authors>
     <Copyright>Copyright © 2021 若汝棋茗</Copyright>
-    <Version>2.1.2</Version>
+    <Version>3.0.0</Version>
     <PackageIcon>RRQM.png</PackageIcon>
     <ApplicationIcon>RRQM.ico</ApplicationIcon>
-    <Description>
-      这是一个简单的MVVM框架
-      更新内容：
-      1.Command绑定支持。
-      2.数据模型绑定支持。
-      3.Message的订阅和发送。
-      4.广泛Message的使用。
-      5.Windows窗体管理。
-      6.增加通过ID获取Window。
-    </Description>
+    <Description>这是一个简单的MVVM框架
+
+更新内容：
+1.Command绑定支持。
+2.数据模型绑定支持。
+3.Message的订阅和发送。
+4.广泛Message的使用。
+5.Windows窗体管理。
+6.增加通过ID获取Window。</Description>
     <AssemblyOriginatorKeyFile>RRQM.pfx</AssemblyOriginatorKeyFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://gitee.com/RRQM_OS/RRQMMVVM</PackageProjectUrl>
@@ -60,7 +59,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="RRQMCore" Version="1.2.15" />
+    <PackageReference Include="RRQMCore" Version="2.0.2" />
   </ItemGroup>
 
 </Project>
