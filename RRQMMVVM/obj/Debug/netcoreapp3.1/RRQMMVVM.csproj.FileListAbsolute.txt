@@ -7,3 +7,4 @@ E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.AssemblyInfo.cs
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csproj.CoreCompileInputs.cache
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.dll
 E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.pdb
+E:\CodeOpen\RRQMMVVM\RRQMMVVM\obj\Debug\netcoreapp3.1\RRQMMVVM.csproj.AssemblyReference.cache

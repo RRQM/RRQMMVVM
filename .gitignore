@@ -7,8 +7,6 @@
 *.rsuser
 *.suo
 *.user
-*.json
-*.cache
 *.userosscache
 *.sln.docstates
 
