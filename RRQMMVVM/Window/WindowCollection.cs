@@ -36,7 +36,7 @@ namespace RRQMMVVM
             window.Activate();
             if (!windows.TryAdd(id, window))
             {
-                throw new RRQMCore.Exceptions.RRQMException("ID重复");
+                throw new Exception("ID重复");
             }
         }
 
